@@ -58,6 +58,7 @@ int getIntInput(int min){
             std::cin.ignore(10000,'\n');
             continue;
         }
+        std::cin.ignore(10000,'\n');
         return input;
     }
 }
