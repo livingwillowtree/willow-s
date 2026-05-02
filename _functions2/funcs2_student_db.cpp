@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
-
+/* 
+    Look at this laughable code. Globals for everything
+    to avoid passing variables lmaoo.
+*/
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< GLOBALS
 
 //constants

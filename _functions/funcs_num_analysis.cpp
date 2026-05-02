@@ -1,5 +1,9 @@
 #include <iostream>
 #include <cmath>
+/*
+    Hahaha who cares about return values right
+    Why return shit when you can just pass everything by reference
+*/
 
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< PROTOTYPES
 int getIntInput();
@@ -63,7 +67,6 @@ int getIntInput(){
 
 void getGCF_LCM(int num1, int num2, int* GCF, int* LCM){
     //very cool algo called Euclidean Algo, shouldnt be against the rules
-    //code will figure em out naturally apparently
     int smaller = num1;
     int bigger = num2;
     int remainder = 0;
