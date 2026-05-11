@@ -184,7 +184,7 @@ void calculateTotalAndAverage(int totalDays, int weeks, double salesPerWeek[100]
         *totalSales += salesPerWeek[i];
     }
 
-    *averageSale = *salesPerWeek/totalDays;
+    *averageSale = *totalSales/totalDays;
 }
 
 void getExtremes(double salesTable[100][7], double salesPerWeek[100], int weeks, int days,
